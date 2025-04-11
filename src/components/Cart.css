@@ -1,7 +1,10 @@
 .cart-container {
   margin-top: 50px; 
-  max-width: 1200px;
+  min-height: calc(100vh - 50px);
+  width:100vw ;
   padding: 0 1rem;
+  background-color:  #070d20;
+  box-sizing: border-box;
 }
 
 .cart-container h2 {

@@ -1,7 +1,9 @@
 .product-grid-container {
     padding: 20px;
+    min-height: calc(100vh - 50px);
     margin-top: 50px;
     font-family: sans-serif;
+    background-color:  #070d20;
   }
   
   .product-grid-controls {
