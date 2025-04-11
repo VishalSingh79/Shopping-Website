@@ -1,12 +1,15 @@
-# React + Vite
+<h1>React Shopping Website</h1><br>
+A responsive shopping website built with React using the Fake Store API. Built as a front-end internship assignment.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀<h2> Features:</h2><br>
+1.) Login with JWT Auth (/auth/login)
 
-Currently, two official plugins are available:
+2.) Product Listing with category filter & search
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3.) Product Details with Add to Cart
 
-## Expanding the ESLint configuration
+4.) Cart Page with quantity update, remove, and checkout
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5.) Header Navigation with cart count and logout
+
+6.) Popup confirmation on successful checkout
