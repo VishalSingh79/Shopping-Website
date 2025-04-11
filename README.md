@@ -1,5 +1,5 @@
 <h1>React Shopping Website</h1><br>
-A responsive shopping website built with React using the Fake Store API. Built as a front-end internship assignment.
+A responsive shopping website built with React using the Platzi Fake Store API. Built as a front-end internship assignment.
 
 🚀<h2> Features:</h2><br>
 1.) Login with JWT Auth (/auth/login)
