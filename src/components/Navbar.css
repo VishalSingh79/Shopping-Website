@@ -1,0 +1,40 @@
+.navbar{
+    width:100vw;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #070d20;
+    font-family: sans-serif;
+    border-bottom: 1px solid #2C333F;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.5rem;
+    letter-spacing: 1px;
+    z-index: 100;
+}
+
+.logo{
+    font-size: larger;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.cart-link {
+  font-size: 20px;
+  position: relative;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #646cff;
+}
+
+@media (max-width:500px) {
+  .logo{
+      display: none;
+  }
+}
+

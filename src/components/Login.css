@@ -1,0 +1,94 @@
+.container{
+    width: 100vw;
+    min-height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    background-color: #070d20;
+    font-family: sans-serif;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.pages{
+    margin-top: 50px;
+    min-width: 200px;
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #070d20;
+    padding: 0.5rem;
+}
+.title{
+    font-size: larger;
+}
+
+.label{
+    margin-top: 0.5rem;
+    color: #838894;
+    letter-spacing: 0.3px; 
+}
+
+form{
+    width: 100%;
+}
+
+.input-sec{
+    width:12rem;
+    height: 1.3rem;
+    padding: 2px 5px;
+    
+}
+
+.input-sec::placeholder,.input-sec::placeholder{
+    color:rgba(245, 245, 245, 0.795);
+    font-family:  sans-serif;
+}
+
+.input-sec{
+    width:100%;
+    height: 2.7rem;
+    box-sizing: border-box;
+    margin-top: 0.4rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: #dadce0;
+    background-color: #171D28;
+    padding: 0rem 0.6rem;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+
+.input-sec::placeholder{
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+.btn-submit{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    background-color:#FFD70B;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0.8rem 0rem;
+    color: black;
+    font-size: medium;
+    transition: all ease 200ms;
+}
+
+.btn-submit:hover{
+    scale: 0.95;
+    cursor: pointer;
+}
+.sups{
+    color:red;
+}
+
+.login-password{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
